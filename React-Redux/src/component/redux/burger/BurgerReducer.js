@@ -9,7 +9,8 @@ const BurgerReducer = (state = initialState, action) => {
     case ORDER_BURGER:
       return {
         ...state,
-        BurgerBuns: state.BurgerBuns - 1,
+        BurgerBuns: state.BurgerBuns - action.payload,
+        // payload: state.BurgerBuns - action.number,
       };
     default:
       return state;
