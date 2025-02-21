@@ -15,7 +15,7 @@ function Pizzabox(props) {
 }
 const mapStatetoProp = (state) => {
   return {
-    PizzaBase: state.PizzaBase,
+    PizzaBase: state.pizza.PizzaBase,
   };
 };
 const mapDispatchtoProps = (dispatch) => {
