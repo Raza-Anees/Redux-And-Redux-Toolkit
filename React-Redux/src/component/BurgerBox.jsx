@@ -7,7 +7,9 @@ function BurgerBox(props) {
 
   return (
     <div className="container">
-      <h2 className="text">Number of pizzabase available {props.BurgerBuns}</h2>
+      <h2 className="text">
+        Number of BurgerBuns available {props.BurgerBuns}
+      </h2>
       <button className="btn" onClick={props.orderBurger}>
         orderPizza
       </button>

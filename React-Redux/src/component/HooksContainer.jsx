@@ -3,7 +3,7 @@ import { orderPizza } from "./redux/pizza/PizzaActions";
 
 function HookContainer() {
   // if using this hook we dont need to use the mapstatefuntion method
-  const PizzaBase = useSelector((state) => state.PizzaBase);
+  const PizzaBase = useSelector((state) => state.pizza.PizzaBase);
   //to dispatch the action this hook have to reference to dispatch state of redux
   const dispatch = useDispatch();
 

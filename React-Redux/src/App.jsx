@@ -10,7 +10,7 @@ function App() {
       <Provider store={store}>
         <Pizzabox />
         <BurgerBox />
-        {/* <HookContainer /> */}
+        <HookContainer />
       </Provider>
     </>
   );
